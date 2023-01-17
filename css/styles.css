@@ -1,0 +1,126 @@
+:root {
+  --color-primary-white: #ffffff;
+  --color-text: #434455;
+  --color-dark: #2e2f42;
+  --color-primary-brand: #4d5ae5;
+  --color-light: #f4f4fd;
+  --color-accent: #e7e9fc;
+  --color-hover: #404BBF;
+  --font-weight-main: 500;
+  --font-size-main: 16px;
+  --line-height-main: 1.5;
+  --letter-spacing-main: 0.02em;
+}
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  color: var(--color-text);
+  background: pink;
+}
+a {
+  text-decoration: none;
+}
+img {
+  box-sizing: border-box;
+}
+/*---main page---*/
+/*header*/
+.list,
+.nav-list,
+.user-list,
+.contact-list {
+  list-style-type:none;
+  
+}
+.link-logo {
+  color: var(--color-dark);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.span-web {
+  color: var(--color-primary-brand);
+}
+.nav-link {
+  color: var(--color-dark);
+}
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--color-primary-brand);
+}
+
+.contact-info-link {
+  color: var(--color-dark);
+
+}
+.contact-info-link:hover,
+.contact-info-link:focus {
+  color: var(--color-primary-brand);
+}
+/*---main---*/
+
+.title{
+    color: var(--color-primary-white);
+font-weight: 600;
+font-size: 56px;
+line-height: 1;
+}
+
+.button-service {
+    font-weight: 600;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.04em;
+color: var(--color-primary-white);
+background-color: var(--color-primary-brand);
+}
+
+.button-service:hover {
+  background-color: var(--color-hover);
+}
+ 
+.subject{
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+color: var(--color-dark)
+}
+.name{
+  font-size: 20px;
+line-height: 1.2;
+color: var(--color-dark);
+}
+.text{
+  font-weight: 400;
+  color: var(--color-text);
+}
+.footer-logo{
+  font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--color-light);
+}
+.span-logo{
+ color: var(--color-primary-brand); 
+}
+.text-footer{
+
+  color: var(--color-accent);
+}
+/*---portfolio---*/
+.button {
+  font-weight: 500;
+  color: var(--color-primary-brand);
+  background-color: var(--color-light);
+}
+.button:hover{
+  background-color: var(--color-hover) ;
+}
+
+
+
